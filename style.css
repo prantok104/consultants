@@ -1,0 +1,759 @@
+/**
+* Author : Pranto kuamr
+* Theme Name: Vesta || Startup and Agency Bootstrap-3.3.7 Template
+* Version: 1.0.0
+*/
+
+/*-----------------------------------
+Google Font
+-------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Cantata+One|Muli:600|Roboto');
+
+/*-----------------------------------
+Default CSS
+-------------------------------------*/
+*{
+    margin: 0;
+    padding: 0
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.margin-top{
+    margin-top: 40px;
+}
+.margin-bottom{
+    margin-bottom: 40px
+}
+.margin-both{
+    margin: 40px 0px
+}
+
+.padding-top{
+    padding-top: 40px;
+}
+.padding-bottom{
+    padding-bottom: 40px
+}
+.padding-both{
+    padding: 40px 0px
+}
+
+.clear{
+    clear: both
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+a{
+    text-decoration: none;
+    display: inline-block
+}
+a:hover{
+    text-decoration: none
+}
+a:visited{
+    text-decoration: none
+}
+a:focus{
+    text-decoration: none
+}
+i{
+    font-weight: 700;
+    margin-right: 5px
+}
+img{
+    width: 100%
+}
+.table{
+    margin-bottom: 0
+}
+.default-btn {
+    background: rgba(0, 0, 0, 0) linear-gradient(to left, #363A3D, #0d0d0d) repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 900;
+    margin: 10px 0;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    transition: 0.4s all  ease-in-out;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border: 1px solid #313337
+}
+.default-btn:hover {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #363A3D, #0d0d0d) repeat scroll 0 0;
+    color: #fff
+}
+.is-hidden{
+    display: none
+}
+.text-bold{
+    font-weight: 900
+}
+/*-----------------------------------
+01. Header CSS
+-------------------------------------*/
+header.phy-header-top-content {
+    background: #04739e none repeat scroll 0 0;
+    color: #fff;
+    padding: 17px 0;
+}
+.phy-header-top-left > p {
+    font-family: roboto;
+    font-size: 14px;
+}
+
+header.phy-header-top-content {
+    background: #04739e none repeat scroll 0 0;
+    color: #fff;
+    height: 50px;
+    padding: 17px 0;
+}
+.phy-header-top-right {
+    color: #000;
+    position: relative;
+    z-index: 1;
+}
+.phy-header-top-right::after {
+    background: #f0f0f0 none repeat scroll 0 0;
+    content: "";
+    left: 0;
+    padding: 25px 0;
+    position: absolute;
+    top: -17px;
+    width: 114%;
+    z-index: -1;
+}
+.phy-header-top-right > p {
+    font-size: 14px;
+}
+
+
+/*-----------------------------------
+02. Nav(Main-menu) CSS
+-------------------------------------*/
+nav.phy-nav-area-start {
+    background: #013042 none repeat scroll 0 0;
+    height: auto;
+}
+.phy-logo-area.text-center > a {
+    color: #fff;
+    display: block;
+    font-size: 28px;
+    padding: 17px 0;
+    font-family: roboto
+}
+.phy-logo-area.text-center > a > span {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    float: left;
+    height: 60px;
+    width: 60px;
+}
+
+.main-menu {
+    position: relative;
+    z-index: 1;
+}
+ul.phy-main-menu {
+    margin: 0;
+    padding: 0;
+}
+ul.phy-main-menu li {
+    display: inline-block;
+    position: relative;
+}
+.phy-main-menu li a {
+    color: #9c9c9c;
+    display: inline-block;
+    font-family: roboto;
+    padding: 37px 15px;
+    text-transform: uppercase;
+    font-size: 14px
+}
+.main-menu::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    left: 0;
+    padding: 45px 0;
+    position: absolute;
+    top: 0;
+    width: 114%;
+    z-index: -1;
+}
+ul.phy-main-menu li::after {
+    background: #ececec none repeat scroll 0 0;
+    content: "";
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 36px;
+    width: 1px;
+}
+ul.phy-main-menu li:last-child::after {
+    height: 0!important;
+}
+
+/*-----------------------------------
+03. Banner CSS
+-------------------------------------*/
+section.phy-banner-area-start {
+    background: rgba(0, 0, 0, 0) url("assets/img/banner.jpg") no-repeat scroll left center / cover ;
+    height: 665px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: table
+}
+section.phy-banner-area-start::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.phy-banner-content {
+    display: table-cell;
+    height: 665px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.phy-banner-text > p {
+    color: #fff;
+    font-size: 22px;
+}
+.text-bold {
+}
+.phy-banner-text > p > .text-bold {
+    font-family: Cantata;
+    font-size: 59px;
+    margin-right: 20px;
+}
+.phy-banner-text > p > .text-large {
+    font-size: 80px;
+    margin-left: 20px;
+}
+.phy-banner-text .phy-style-btn {
+    background: #d7e875 none repeat scroll 0 0;
+    border: 0 none;
+    color: #7d8543;
+    font-family: roboto;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 23px 197px 23px 23px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.phy-banner-text p.phy-left-margin {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: justify;
+}
+.phy-banner-text a {
+    display: inline-block;
+    border-radius: 0;
+    color: #013042;
+    font-family: roboto;
+    font-weight: 700;
+    margin-left: 28px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    background: #fff
+}
+.phy-banner-form-content {
+    background: #c6d77c none repeat scroll 0 0;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 65%;
+}
+.phy-banner-form {
+    display: block;
+    overflow: hidden;
+}
+.phy-banner-form-content h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.phy-banner-form-content > p {
+    color: #013042;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+.phy-banner-form-content form input, .phy-banner-form-content form textarea {
+    border: 0 none;
+    font-family: roboto;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 10px 12px;
+    width: 100%;
+}
+.phy-form-btn {
+    background: #013c53 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    font-family: roboto;
+    font-size: 18px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/*-----------------------------------
+06. About CSS
+-------------------------------------*/
+.phy-about-area-start::after , .phy-testimonial-area-start::after {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("assets/img/side.jpg");
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    transform: rotate(0deg);
+    width: 19%;
+    z-index: -1;
+}
+.phy-about-area-start::before, .phy-testimonial-area-start::before {
+    background: rgba(0, 0, 0, 0) url("assets/img/left-side.jpg") no-repeat scroll left center / cover ;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 16%;
+    z-index: -1;
+}
+.phy-about-area-start{
+    padding: 50px 0 0;
+    text-align: center;
+    position: relative;
+    z-index: 1
+}
+.phy-about-content h1 {
+    font-size: 35px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.phy-about-content h1 > .text-color {
+    color: #ccd884;
+}
+.phy-about-content h1::after {
+}
+.phy-about-content h1::after {
+    background: #f0f0f0 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 5px;
+    left: 47%;
+    position: absolute;
+    width: 5%;
+}
+.phy-about-content > p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 40px auto;
+    width: 75%;
+}
+.phy-about-content .phy-btn {
+    background: #d7e875 none repeat scroll 0 0;
+    color: #013042;
+    display: inline-block;
+    font-family: roboto;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-bottom: 50px
+}
+
+/*-----------------------------------
+07. Feature CSS
+-------------------------------------*/
+
+.phy-feature-area-start {
+    height: auto;
+    padding: 50px 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    text-align: left
+}
+.phy-feature-area-start::after {
+    background: #ddd none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.phy-fea-icon {
+    float: left;
+    width: 20%;
+    position: relative
+}
+.phy-fea-content {
+    float: left;
+    width: 80%;
+}
+.phy-fea-icon i {
+    color: #ccd884;
+    font-size: 59px;
+}
+.phy-fea-content > h2 {
+    font-size: 22px;
+}
+
+.phy-fea-content > p {
+    color: #888;
+    font-family: roboto;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: left;
+}
+.phy-fea-content > a {
+    color: #315665;
+    display: inline-block;
+    font-family: roboto;
+    font-size: 14px;
+    text-align: left;
+}
+
+.phy-fea-icon::after {
+    background: #ccd884 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: -84%;
+    width: 111%;
+}
+.phy-fea-icon::before {
+    background: #ccd884 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: -44%;
+    top: 129%;
+    transform: rotate(90deg);
+    width: 100%;
+}
+
+/*-----------------------------------
+08. Appointment CSS
+-------------------------------------*/
+.phy-appointment-area-start {
+    background: #013143 none repeat scroll 0 0;
+    padding: 25px 0;
+}
+.phy-appointment-text {
+    margin-top: 50px;
+}
+.phy-appointment-text > p {
+    color: #fdfdfe;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+/*-----------------------------------
+09. Contact CSS
+-------------------------------------*/
+.phy-contact-left{
+    width: 40%;
+    float: left
+}
+.phy-contact-right{
+    width: 60%;
+    float: left
+}
+.phy-contact-form > h2 {
+    font-size: 30px;
+}
+.phy-contact-form .phy-banner-form-content > h2 {
+    color: #013143;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.phy-contact-form .phy-banner-form-content {
+    width: 100%;
+}
+.contact-list {
+    color: #013143;
+    font-family: roboto;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 23px;
+    text-align: left;
+}
+.phy-contact-form h3 {
+    line-height: 25px;
+    margin-bottom: 30px;
+    padding-top: 28px;
+    position: relative;
+}
+.phy-contact-left form {
+    padding: 0 26px;
+}
+.phy-contact-form h3::after {
+    background: #013143 none repeat scroll 0 0;
+    content: "";
+    height: 5px;
+    left: 40%;
+    position: absolute;
+    top: 0;
+    width: 20%;
+}
+.phy-contact-right {
+    background: #e6e9ee none repeat scroll 0 0;
+}
+.phy-img {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("assets/img/caller.png");
+    background-origin: padding-box;
+    background-position: left center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 470px;
+    margin: 0 15%;
+    width: 97%;
+}
+.phy-single-context {
+    display: table;
+    float: left;
+    overflow: hidden;
+    width: 33%;
+}
+.phy-single-context-cell {
+    display: table-cell;
+    font-size: 14px;
+    height: 195px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.phy-single-context-cell h2{
+    font-size: 22px;
+    margin-bottom: 20px
+}
+.phy-single-context-cell p{
+    line-height: 20px;
+    font-family: roboto
+}
+.color-fade{
+    background: #cae4db
+}
+.color-medium{
+    background: #7c9d94
+}
+.color-deep{
+    background: #6dc0c6
+}
+/*-----------------------------------
+10. Broc Area CSS
+-------------------------------------*/
+
+.phy-broc-area-start {
+    background: #013143 none repeat scroll 0 0;
+    color: #fff;
+    padding: 60px 0 25px;
+    position: relative;
+    z-index: 1;
+}
+.phy-broc-content > h2 {
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+.phy-broc-content > h2>span.text-color {
+    color: #d7e875
+}
+.phy-broc-content > p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+.phy-broc-content .text-center > a {
+    background: #d7e875 none repeat scroll 0 0;
+    color: #013143;
+    display: inline-block;
+    font-family: roboto;
+    padding: 25px 100px;
+    text-transform: uppercase;
+}
+.phy-broc-area-start::after {
+    background: rgba(0, 0, 0, 0) url("assets/img/broc.png") no-repeat scroll 0 0;
+    content: "";
+    height: 110%;
+    position: absolute;
+    right: 17%;
+    top: -10%;
+    width: 32%;
+}
+/*-----------------------------------
+11. services Area CSS
+-------------------------------------*/
+.phy-services-img {
+    height: 400px;
+    width: 100%;
+    background: #f0f0f0
+}
+.phy-services-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.phy-services-area-start {
+    background: #f0f0f0 none repeat scroll 0 0;
+}
+.phy-services-context {
+    padding: 40px 20px;
+}
+.phy-services-context > h2 {
+    color: #013042;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 35px;
+}
+.text-color {
+    color: #c0cb7c;
+}
+
+.single-service > p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0;
+    position: relative;
+    text-align: justify;
+}
+.single-service > p::after {
+    color: #c0cb7c;
+    content: "\f00c";
+    font-family: 'Fontawesome';
+    height: 60px;
+    left: -27px;
+    position: absolute;
+    top:10px;
+    width: 60px;
+    font-size: 30px
+}
+
+/*-----------------------------------
+12. Testimonial CSS
+-------------------------------------*/
+.phy-testimonial-area-start{
+    position: relative;
+    padding: 85px 0px 70px 0px
+}
+.phy-work-content .single-service > p {
+    font-size: 12px;
+    opacity: 0.8;
+    padding: 12px 0;
+}
+.phy-work-content > h1 {
+    color: #013042;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text-color {
+    color: #c0cb7c;
+    display: inline;
+}
+/*-----------------------------------
+Footer CSS
+-------------------------------------*/
+section.phy-footer-top-area-start {
+    background: #013042 none repeat scroll 0 0;
+    border-bottom: 10px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    padding: 30px 0;
+}
+
+footer.phy-footer-area-start {
+    background: #013143 none repeat scroll 0 0;
+    color: #fff;
+    padding: 65px 0 25px;
+    text-align: center;
+    width: 100%;
+}
+.phy-footer-text-cell > p {
+    font-family: roboto;
+    font-size: 22px;
+}
+.phy-footer-text-cell > a {
+    color: #fff;
+    display: inline-block;
+    font-family: roboto;
+    padding: 30px 0;
+}
+.social-icon > a {
+    background: #cae4db none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #013042;
+    display: inline-block;
+    font-size: 30px;
+    height: 60px;
+    margin-left: 10px;
+    padding: 16px;
+    width: 60px;
+}
+.social-icon {
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
